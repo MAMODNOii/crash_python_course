@@ -4,20 +4,18 @@
 
 - The class has been done with the aid of two additional modules [fraction_module](fraction_module.py) and [ex3_module](ex3_module.py).
 
-- Finally, it is tested in the jupyter notebook [ex4_test](ex4_test.ipynb)
+- Finally, it is tested in the jupyter notebook [ex4_test](ex4_test.ipynb).
 
 
 ## rational class
-Here, I will describe the constructors of this class:
+Here are the constructors of this class:
 * **``__init__``** 
   - take
     - a positional argument for the number to convert into a rational number
-    - a keyword argument to set the required precision of the approximation, then check whether its value is in between 0 and 1. if not print an error message if the criterion is not reached.
-  - store internally by using the function **continued_fraction_approx** in the module [fraction_module](fraction_module.py)
-    - the numerator and denominator representing the rational number (``self.numerator`` and ``self.denominator``)
-    - the sign of your rational number should be stored in the numerator
+    - a keyword argument to set the required precision of the approximation
+  - store internally the numerator and denominator representing the rational number by using the function **continued_fraction_approx** in the module [fraction_module](fraction_module.py).
   
-* **``__abs__``** to deal with their absolute values
+* **``__abs__``** to deal with their absolute values.
 
 * **String types** to deal with ``__str__`` and ``__repr__``.
 
