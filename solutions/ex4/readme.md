@@ -2,7 +2,7 @@
 
 - I have created a new class **rational** to handle a new type of rational numbers, avalaible in [rational_class](rational_class.py).
 
-- The class has been done with the aid of two additional modules [fraction_module](../fraction_module.py) and [ex3_module](ex_module.py).
+- The class has been done with the aid of two additional modules [fraction_module](fraction_module.py) and [ex3_module](ex_module.py).
 
 - Finally, it is tested in the jupyter notebook [ex4_test](ex4_test.ipynb)
 
@@ -37,7 +37,7 @@ There are two external modules used in this class:
   
 
 ## Test
-I have done 7 tests of the class in [ex4_test](../ex4_test.ipynb):
+I have done 7 tests of the class in [ex4_test](ex4_test.ipynb):
 * Check for the precision is in between 0 and 1, and print an error message if the criterion is not reached
 * Test the fraction estimation of rational numbers and the sign stored in its numerator
 * Test ``__str__`` and ``__repr__``
