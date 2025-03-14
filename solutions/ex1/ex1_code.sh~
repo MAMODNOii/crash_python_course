@@ -1,0 +1,25 @@
+#! /bin/bash
+
+#new directory
+#mkdir bandpass_karnchana
+
+#for loop to print 
+for filename in bandpass_raw/*; do
+
+    check_list+=($(echo "$filename" | cut -d '.' -f2))
+    name=$(echo "$filename" | cut -d '/' -f2 | cut -d '.' -f1)
+    if grep -q "photon" "$filename"; then
+       cp ./"$filename" ./bandpass_karnchana/"$name".photons.filt
+    else
+       cp ./"$filename" ./bandpass_karnchana/"$name".energy.filt
+    fi
+
+done
+
+printf "%s\n" "${check_list[@]}" | sort | uniq -c | sort -nr
+#echo Number of files ending with .dat is $count_dat.
+#echo Number of files ending with .asc is $count_asc.
+#echo Number of files ending with .ASCII is $count_ASCII.
+
+
+#
