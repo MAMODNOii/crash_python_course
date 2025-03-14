@@ -2,7 +2,7 @@
 
 - I have created a new class **rational** to handle a new type of rational numbers, avalaible in [rational_class](rational_class.py).
 
-- The class has been done with the aid of two additional modules [fraction_module](fraction_module.py) and [ex3_module](ex_module.py).
+- The class has been done with the aid of two additional modules [fraction_module](fraction_module.py) and [ex3_module](ex3_module.py).
 
 - Finally, it is tested in the jupyter notebook [ex4_test](ex4_test.ipynb)
 
