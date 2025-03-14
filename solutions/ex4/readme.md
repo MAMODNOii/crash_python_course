@@ -31,7 +31,7 @@ There are two external modules used in this class:
 * [fraction_module](fraction_module.py) contains functions used to convert an input rational number to a simplified-form fraction in terms of its numerator and denominator. There are two used functions:
   - **simplified_fraction** to reduce an input fraction (in the forms of numerator and denominator) to its simplified form exploiting the prime decomposition of the numerator and denominator;
   - **continued_fraction_approx** to approximate the input rational number as a fraction using continued fractions and return the tuple of its numerator and denominator.
-* [ex3_module](ex_module.py) contains all the functions which are built in [exercise3_pythonbasics](../ex3) and will be used in [fraction_module](fraction_module.py). There are two used functions:
+* [ex3_module](ex3_module.py) contains all the functions which are built in [exercise3_pythonbasics](../ex3) and will be used in [fraction_module](fraction_module.py). There are two used functions:
   - **prime_sieve_of_eratosthenes** to find the list of prime integer numbers less than or equal to the input number;
   - **prime_factors** to find the decomposition in prime factors of an input positive integer number.
   
