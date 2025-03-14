@@ -24,7 +24,7 @@ contains the solutions of all exercises:
    - [ex3.4_solution.py](solutions/ex3/ex3.4_solution.py)
    - [ex3_module.py](solutions/ex3/ex3_module.py) contains all fuctions built in [ex3.1_solution.py](solutions/ex3/ex3.1_solution.py), [ex3.2_solution.py](solutions/ex3/ex3.2_solution.py), and [ex3.4_solution.py](solutions/ex3/ex3.1_solution.py) that will be used in [ex3.5_solution.py](solutions/ex3/ex3.5_solution.py).
    - [ex3.5_solution.py](solutions/ex3/ex3.5_solution.py)
-- [exercise4_classes](solutions/ex4) see the describtion in [readme.md](solutions/ex4/readme.md).
+- [exercise4_classes](solutions/ex4) see the description in [readme.md](solutions/ex4/readme.md).
 
 ## Useful links:
 
