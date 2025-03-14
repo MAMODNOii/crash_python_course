@@ -21,6 +21,8 @@ Here, I will describe the constructors of this class:
 
 * **String types** to deal with ``__str__`` and ``__repr__``.
 
+* **Arithmetic dundler functions** to deal with ``__add__``, ``__sub__``, ``__mul__``, ``__truediv__``, and ``__pow__``.
+
 * **Comparison operators** to deal with ``__eq__``, ``__ne__``, ``__lt__``, ``__gt__``, ``__le__``, and ``__ge__``.
 
 * **``__int__`` and ``__float__``** to perform a casting of the rational number into integers and floats.
