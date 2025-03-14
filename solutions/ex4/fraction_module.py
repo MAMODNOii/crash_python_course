@@ -1,3 +1,13 @@
+"""
+===============================================================================
+			fraction_module
+===============================================================================
+
+This module contains all the functions used to convert an input rational number
+to a simplified-form fraction in terms of its numerator and denominator.
+
+"""
+
 from ex3_module import prime_sieve_of_eratosthenes, prime_factors
 import math
 
