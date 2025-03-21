@@ -16,8 +16,10 @@ for filename in bandpass_raw/*; do
     # Check files if they have 'photon' or 'energy' and rename them
     if grep -q "photon" "$filename"; then
        cp ./"$filename" ./bandpass_karnchana/"$name".photons.filt
-    else
+    elif grep -q "energy" "$filename"; then
        cp ./"$filename" ./bandpass_karnchana/"$name".energy.filt
+    else
+       cp ./"$filename" ./bandpass_karnchana/"$name".unclassified.filt
     fi
 
 done
